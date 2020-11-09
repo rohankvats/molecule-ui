@@ -1,7 +1,7 @@
 {
   "name": "cereal-ui",
   "version": "0.0.1",
-  "description": "🌲 React UI Kit by Segment 🌲",
+  "description": "🌲 React UI Kit by rohan 🌲",
   "contributors": [
     "Jeroen Ransijn (https://jssr.design/)",
     "Roland Warmerdam (https://roland.codes)",
@@ -12,11 +12,14 @@
   ],
   "keywords": [
     "cereal-ui",
-    "segment",
     "ui",
     "react"
   ],
-  "repository": "rohankvats/cereal-ui",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohankvats/cereal-ui.git"
+  },
   "license": "MIT",
   "main": "commonjs/index.js",
   "module": "esm/index.js",
@@ -51,7 +54,7 @@
     "storybook": "start-storybook -p 6006"
   },
   "engines": {
-    "node": ">=10.18"
+    "node": ">=12.18"
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
