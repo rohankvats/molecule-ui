@@ -19,7 +19,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       modules: ['node_modules'],
       alias: {
         react: path.resolve(__dirname, '../node_modules/react'),
-        'cereal-ui': path.resolve(__dirname, '../src/index.js'),
+        'molecular-ui': path.resolve(__dirname, '../src/index.js'),
         components: path.resolve(__dirname, './src/components')
       }
     }

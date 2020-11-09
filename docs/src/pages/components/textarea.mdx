@@ -2,34 +2,23 @@ import PropsTable from 'components/PropsTable'
 
 ## Introduction
 
-Similar to text inputs, Evergreen exports two components to create text areas:
+Similar to text inputs, MolecularUI exports two components to create text areas:
 
-* **Textarea**: base text area component. Directly maps to a `textarea` element.
-* **TextareaField**: combines a label, textarea  and validation message in one. Used for traditional forms.
-
+- **Textarea**: base text area component. Directly maps to a `textarea` element.
+- **TextareaField**: combines a label, textarea and validation message in one. Used for traditional forms.
 
 ```jsx
-<Textarea
-  name="textarea-1"
-  placeholder="Textarea placeholder..."
-/>
+<Textarea name="textarea-1" placeholder="Textarea placeholder..." />
 ```
 
 ## Textarea with a label
 
 ```jsx
 <Pane>
-  <Label
-    htmlFor="textarea-2"
-    marginBottom={4}
-    display="block"
-  >
+  <Label htmlFor="textarea-2" marginBottom={4} display="block">
     Label
   </Label>
-  <Textarea
-    id="textarea-2"
-    placeholder="Textarea placeholder..."
-  />
+  <Textarea id="textarea-2" placeholder="Textarea placeholder..." />
 </Pane>
 ```
 
@@ -39,10 +28,10 @@ The `Textarea` component works the same as using `textarea` directly.
 Use `e.target.value` to get the value of the component on change.
 
 ```jsx
-<Component initialState={{ value: 'Hello'}}>
+<Component initialState={{ value: 'Hello' }}>
   {({ state, setState }) => (
     <Textarea
-      onChange={e => setState({ value: e.target.value })}
+      onChange={(e) => setState({ value: e.target.value })}
       value={state.value}
     />
   )}
@@ -55,7 +44,6 @@ Use `e.target.value` to get the value of the component on change.
 
 The `TextareaField` component combines a `Textarea` with a label and optional
 `description`, `validationMessage` and `hint`.
-
 
 ## Label and description
 
@@ -126,7 +114,7 @@ Use `e.target.value` to get the value of the component on change.
       required
       description="This is a description."
       value={state.value}
-      onChange={e => setState({ value: e.target.value })}
+      onChange={(e) => setState({ value: e.target.value })}
     />
   )}
 </Component>

@@ -37,7 +37,7 @@ export default [
     input: 'src/index.js',
     external,
     output: {
-      file: 'umd/cereal-ui.js',
+      file: 'umd/molecular-ui.js',
       format: 'umd',
       name: 'CerealUI',
       indent: false,
@@ -67,7 +67,7 @@ export default [
     input: 'src/index.js',
     external,
     output: {
-      file: 'umd/cereal-ui.min.js',
+      file: 'umd/molecular-ui.min.js',
       format: 'umd',
       name: 'CerealUI',
       indent: false,

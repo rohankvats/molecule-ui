@@ -11,7 +11,7 @@ import {
   AnnotationIcon,
   NotificationsIcon,
   SearchIcon,
-} from 'cereal-ui';
+} from 'molecular-ui';
 
 function MyComponent(_props) {
   return (

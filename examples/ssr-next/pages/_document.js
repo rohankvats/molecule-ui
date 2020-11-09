@@ -1,7 +1,7 @@
 /* eslint-disable react/no-danger */
 import React from 'react'
 import Document, { Head, Main, NextScript } from 'next/document'
-import { extractStyles } from 'cereal-ui'
+import { extractStyles } from 'molecular-ui'
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
     //
     // `hydrationScript` is a script you should render on the server.
     // It contains a stringified version of the glamor and ui-box caches.
-    // Evergreen will look for that script on the client and automatically hydrate
+    // MolecularUI will look for that script on the client and automatically hydrate
     // both glamor and ui-box.
     const { css, hydrationScript } = extractStyles()
 

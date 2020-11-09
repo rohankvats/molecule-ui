@@ -6,10 +6,10 @@ The radio and radio group are used for selecting a single option from a list.
 If you need to have an unselected state, just add a radio button with a None option.
 Begin labels with a capital letter.
 
-Evergreen exports two components to create radios and radio groups:
+MolecularUI exports two components to create radios and radio groups:
 
-* **Radio**: Directly maps to a `input` element.
-* **RadioGroup**: Helps manage a group of radios. Try this first.
+- **Radio**: Directly maps to a `input` element.
+- **RadioGroup**: Helps manage a group of radios. Try this first.
 
 # RadioGroup
 
@@ -23,9 +23,9 @@ The `RadioGroup` is the preferred way to create radio groups in most use cases.
     options: [
       { label: 'Read-only', value: 'read-only' },
       { label: 'Write', value: 'write' },
-      { label: 'Restricted', value: 'restricted' }
+      { label: 'Restricted', value: 'restricted' },
     ],
-    value: 'restricted'
+    value: 'restricted',
   }}
 >
   {({ state, setState }) => (
@@ -33,7 +33,7 @@ The `RadioGroup` is the preferred way to create radio groups in most use cases.
       label="Permissions"
       value={state.value}
       options={state.options}
-      onChange={event => setState({ value: event.target.value })}
+      onChange={(event) => setState({ value: event.target.value })}
     />
   )}
 </Component>
@@ -47,9 +47,9 @@ The `RadioGroup` is the preferred way to create radio groups in most use cases.
     options: [
       { label: 'Read-only', value: 'read-only' },
       { label: 'Write', value: 'write' },
-      { label: 'Restricted', value: 'restricted' }
+      { label: 'Restricted', value: 'restricted' },
     ],
-    value: 'restricted'
+    value: 'restricted',
   }}
 >
   {({ state, setState }) => (
@@ -59,14 +59,13 @@ The `RadioGroup` is the preferred way to create radio groups in most use cases.
       label="Permissions"
       value={state.value}
       options={state.options}
-      onChange={event => setState({ value: event.target.value })}
+      onChange={(event) => setState({ value: event.target.value })}
     />
   )}
 </Component>
 ```
 
 <PropsTable of="RadioGroup" />
-
 
 # Radio
 
@@ -88,12 +87,7 @@ The `RadioGroup` is the preferred way to create radio groups in most use cases.
   <Radio checked size={16} name="group2" label="Radio default" />
   <Radio size={16} name="group2" checked label="Radio checked" />
   <Radio size={16} name="group2" disabled label="Radio disabled" />
-  <Radio
-    size={16}
-    name="group2"
-    disabled
-    label="Radio checked disabled"
-  />
+  <Radio size={16} name="group2" disabled label="Radio checked disabled" />
 </Pane>
 ```
 

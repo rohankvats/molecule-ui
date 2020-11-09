@@ -1,5 +1,5 @@
 <!---
-Hello! And thanks for contributing to Evergreen 🎉
+Hello! And thanks for contributing to MolecularUI 🎉
 
 We appreciate the time you took to open this pull request.
 Please take a couple more minutes to document your pull request to ensure we can quickly review it and provide you feedback.
@@ -11,11 +11,10 @@ Please respect our [Code of Conduct](https://github.com/segmentio/evergreen/blob
 
 **Overview**
 
-
 **Screenshots (if applicable)**
 
-
 **Documentation**
+
 - [ ] Updated Typescript types and/or component PropTypes
 - [ ] Added / modified component docs
 - [ ] Added / modified Storybook stories

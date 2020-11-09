@@ -1,6 +1,6 @@
 import React from 'react'
 import { filter } from 'fuzzaldrin-plus'
-import { Pane, SearchInput, Text } from 'cereal-ui'
+import { Pane, SearchInput, Text } from 'molecular-ui'
 import * as Icons from '../../../src/icons'
 import { IconNameMapper } from '../../../src/icons/generated/IconNameMapper'
 

@@ -10,7 +10,7 @@ export default () => {
   return (
     <Layout>
       <Helmet>
-        <title>Components · Evergreen</title>
+        <title>Components · MolecularUI</title>
       </Helmet>
       <div>
         <TopBar />

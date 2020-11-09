@@ -163,12 +163,12 @@ Button.propTypes = {
   isActive: PropTypes.bool,
 
   /**
-   * Sets an icon before the text. Can be any icon from Evergreen or a custom element.
+   * Sets an icon before the text. Can be any icon from MolecularUI or a custom element.
    */
   iconBefore: PropTypes.oneOfType([PropTypes.elementType, PropTypes.element]),
 
   /**
-   * Sets an icon after the text. Can be any icon from Evergreen or a custom element.
+   * Sets an icon after the text. Can be any icon from MolecularUI or a custom element.
    */
   iconAfter: PropTypes.oneOfType([PropTypes.elementType, PropTypes.element]),
 

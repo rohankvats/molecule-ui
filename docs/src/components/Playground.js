@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 import uniqueId from 'lodash/uniqueId'
-import * as components from 'cereal-ui'
+import * as components from 'molecular-ui'
 import Component from '@reactions/component'
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
 import profiles from './examples/profiles.json'
@@ -68,7 +68,7 @@ export default class Playground extends React.Component {
   renderComponentNotice = () => {
     return (
       <div className="Playground-notice">
-        The `Component` component is not part of Evergreen. It is only used in
+        The `Component` component is not part of MolecularUI. It is only used in
         examples to create state.{' '}
         <a
           href="https://github.com/reactions/component"
@@ -85,7 +85,7 @@ export default class Playground extends React.Component {
   renderProfilesNotice = () => {
     return (
       <div className="Playground-notice">
-        The `profiles` variable is not part of Evergreen. It’s example data
+        The `profiles` variable is not part of MolecularUI. It’s example data
         existing out of an array of user profiles.
       </div>
     )

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Pane } from 'cereal-ui'
+import { Pane } from 'molecular-ui'
 
 export default class TextStylePreview extends React.Component {
   static propTypes = {

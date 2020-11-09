@@ -28,12 +28,12 @@ const getSnippet = ({ writeKey }) => {
   return createSnippet({
     apiKey: writeKey,
     page: false,
-    load: false
+    load: false,
   })
 }
 
 exports.onRenderBody = ({ setHeadComponents }) => {
-  // Get the css and hydration script from Evergreen.
+  // Get the css and hydration script from MolecularUI.
   const { css, hydrationScript } = extractStyles()
 
   const snippet = getSnippet({ writeKey: segmentWriteKey })
@@ -49,6 +49,6 @@ exports.onRenderBody = ({ setHeadComponents }) => {
     <script
       key="segment-snippet"
       dangerouslySetInnerHTML={{ __html: snippet }}
-    />
+    />,
   ])
 }

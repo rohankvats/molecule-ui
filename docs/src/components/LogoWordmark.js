@@ -10,7 +10,7 @@ export default class LogoIcon extends React.PureComponent {
         style={{ display: 'block' }}
         {...this.props}
       >
-        <title>Evergreen</title>
+        <title>MolecularUI</title>
         <defs>
           <polygon id="a" points="16 7 23 21 9 21" />
         </defs>

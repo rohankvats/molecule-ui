@@ -1,8 +1,8 @@
 {
-  "name": "cereal-ui-codemods",
+  "name": "molecular-ui-codemods",
   "version": "5.0.0",
-  "description": "Codemods for cereal-ui",
-  "repository": "rohankvats/cereal-ui",
+  "description": "Codemods for molecular-ui",
+  "repository": "rohankvats/molecular-ui",
   "license": "MIT",
   "scripts": {
     "test": "jest --bail"

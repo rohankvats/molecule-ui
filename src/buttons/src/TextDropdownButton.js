@@ -39,7 +39,10 @@ const TextDropdownButton = memo(
       ...restProps
     } = props
 
-    const themedClassName = cx(theme.getTextDropdownButtonClassName(), className)
+    const themedClassName = cx(
+      theme.getTextDropdownButtonClassName(),
+      className
+    )
 
     return (
       <Text
@@ -104,7 +107,7 @@ TextDropdownButton.propTypes = {
   disabled: PropTypes.bool,
 
   /**
-   * An Evergreen icon or custom icon node. By default it uses CaretDownIcon
+   * An MolecularUI icon or custom icon node. By default it uses CaretDownIcon
    */
   icon: PropTypes.oneOfType([PropTypes.elementType, PropTypes.element]),
 

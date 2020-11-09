@@ -1,7 +1,7 @@
 /**
  * Codemode to update icon imports
  * ```
- * npx jscodeshift -t node_modules/cereal-ui/codemods/4.28.1-4.29.0/replace-icon-imports.js --parser=tsx --extensions=js,ts,tsx <your file target> --dry --print
+ * npx jscodeshift -t node_modules/molecular-ui/codemods/4.28.1-4.29.0/replace-icon-imports.js --parser=tsx --extensions=js,ts,tsx <your file target> --dry --print
  * ```
  *
  * Converts:
@@ -47,7 +47,7 @@ export default function transform(file, api) {
   const evergreenImports = root
     .find(j.ImportDeclaration, {
       source: {
-        value: 'cereal-ui'
+        value: 'molecular-ui'
       }
     })
     .nodes()
@@ -155,7 +155,7 @@ export default function transform(file, api) {
     root
       .find(j.ImportDeclaration, {
         source: {
-          value: 'cereal-ui'
+          value: 'molecular-ui'
         }
       })
       .find(j.ImportSpecifier, {

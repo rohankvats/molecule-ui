@@ -2,7 +2,7 @@ import React from 'react'
 import { openConsentManager } from '@segment/consent-manager'
 import SegmentLogoWordmark from './SegmentLogoWordmark'
 
-const NativeLink = props => (
+const NativeLink = (props) => (
   <a target="_blank" rel="noopener noreferrer" {...props} />
 )
 
@@ -16,7 +16,7 @@ export default class PageFooter extends React.PureComponent {
           </div>
           <div className="PageFooter-right">
             <p>
-              Evergreen is an open source project developed at Segment.{' '}
+              MolecularUI is an open source project developed at Segment.{' '}
               <NativeLink
                 href="https://segment.com/jobs/"
                 className="focus-ring-link-white"

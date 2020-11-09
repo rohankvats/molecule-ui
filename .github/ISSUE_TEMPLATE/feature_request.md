@@ -1,14 +1,16 @@
 ---
+
 name: Feature request
-about: Suggest an idea for Evergreen
+about: Suggest an idea for MolecularUI
 title: ''
 labels: 'Type: Improvement'
 assignees: ''
 ---<!---
 
-Hello! And thanks for contributing to Evergreen 🎉
+Hello! And thanks for contributing to MolecularUI 🎉
 
 Before opening your feature request, make sure you've:
+
 - [ ] read the [Code of Conduct](https://github.com/segmentio/evergreen/blob/master/.github/CODE_OF_CONDUCT.md).
 - [ ] searched for similar issues or pull requests to avoid opening duplicates
 

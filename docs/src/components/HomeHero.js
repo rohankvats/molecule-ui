@@ -16,10 +16,10 @@ export default class HomeHero extends React.PureComponent {
         <div className="Hero-inner">
           <div className="Hero-left">
             <LogoWordmark style={{ marginBottom: 12 }} width={134} />
-            <h1>A Design System for the Web</h1>
+            <h1>An upGrad Design System for the Web</h1>
             <p>
-              Evergreen is a React UI Framework for building ambitious products
-              on the web. Brought to you by
+              Molecular-ui is a React UI Framework for building ambitious
+              products on the web. Brought to you by
               {` `}
               <NativeLink className="Link" href="https://segment.com/">
                 Segment
@@ -36,31 +36,12 @@ export default class HomeHero extends React.PureComponent {
               >
                 Browse Components
               </Button>
-              <Button
-                is="a"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/segmentio/evergreen"
-                iconBefore={
-                  <GitHubIcon
-                    width="16"
-                    height="16"
-                    style={{
-                      marginRight: 10,
-                      marginLeft: -2
-                    }}
-                  />
-                }
-                height={40}
-              >
-                GitHub
-              </Button>
             </div>
           </div>
           <div className="Hero-right">
             <img
               src={spotIllustration}
-              alt="Evergreen spot illustration"
+              alt="MolecularUI spot illustration"
               height="396"
             />
           </div>

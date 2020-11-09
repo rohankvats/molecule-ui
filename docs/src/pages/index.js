@@ -15,13 +15,13 @@ const mediaItems = [
     title: 'Driving Adoption of a Design System',
     image: drivingAdoption,
     published: 'October, 2018',
-    link: 'https://segment.com/blog/driving-adoption-of-a-design-system'
+    link: 'https://segment.com/blog/driving-adoption-of-a-design-system',
   },
   {
     title: 'Growing a Design System',
     image: growingADesignSystem,
     published: 'June, 2018',
-    link: 'https://www.youtube.com/watch?v=aoxEhlLpG9k'
+    link: 'https://www.youtube.com/watch?v=aoxEhlLpG9k',
   },
   {
     title:
@@ -29,8 +29,8 @@ const mediaItems = [
     image: figmaDesignSystems,
     published: 'April, 2018',
     link:
-      'https://www.designsystems.com/stories/convince-your-company-its-ready-for-a-design-system/'
-  }
+      'https://www.designsystems.com/stories/convince-your-company-its-ready-for-a-design-system/',
+  },
 ]
 
 export default class Root extends React.Component {
@@ -42,14 +42,13 @@ export default class Root extends React.Component {
     return (
       <Layout>
         <Helmet>
-          <title>Evergreen</title>
+          <title>MolecularUI</title>
         </Helmet>
         <div>
           <TopBar />
           <main>
             <HomeHero />
             <Features />
-            <Media title="Evergreen Related Media" items={mediaItems} />
           </main>
         </div>
         <PageFooter />

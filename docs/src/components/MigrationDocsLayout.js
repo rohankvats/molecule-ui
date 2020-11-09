@@ -10,7 +10,7 @@ import GetStartedSidebar from './GetStartedSidebar'
 const PageLayout = ({ children }) => (
   <Layout>
     <Helmet>
-      <title>Migration Guide · Evergreen</title>
+      <title>Migration Guide · MolecularUI</title>
     </Helmet>
     <div className="MainLayout">
       <TopBar />
@@ -35,7 +35,7 @@ const PageLayout = ({ children }) => (
 )
 
 PageLayout.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
 }
 
 export default PageLayout

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Pane, Heading, Text, Code, Popover } from 'cereal-ui'
+import { Pane, Heading, Text, Code, Popover } from 'molecular-ui'
 
 function uppercaseColor(color) {
   if (color[0] === '#') return color.toUpperCase()

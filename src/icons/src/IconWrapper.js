@@ -4,14 +4,11 @@ import ReactIs from 'react-is'
 import Box from 'ui-box'
 
 /**
- * This is an internal helper component for rendering custom or Evergreen icons
- * Box props are applied to the outer Box container, and Evergreen icon-specific props are added to the icon element.
+ * This is an internal helper component for rendering custom or MolecularUI icons
+ * Box props are applied to the outer Box container, and MolecularUI icon-specific props are added to the icon element.
  */
 export const IconWrapper = memo(
-  forwardRef(function Icon(
-    { icon, color, size, title, ...props },
-    ref
-  ) {
+  forwardRef(function Icon({ icon, color, size, title, ...props }, ref) {
     if (!icon || typeof icon === 'string') {
       return null
     }
@@ -19,7 +16,7 @@ export const IconWrapper = memo(
     const iconProps = {
       color,
       size,
-      title,
+      title
     }
 
     let iconWithProps = null
@@ -27,7 +24,11 @@ export const IconWrapper = memo(
       const Component = icon
       iconWithProps = <Component ref={ref} {...iconProps} />
     } else if (React.isValidElement(icon)) {
-      iconWithProps = React.cloneElement(icon, { ...iconProps, ...icon.props, ref })
+      iconWithProps = React.cloneElement(icon, {
+        ...iconProps,
+        ...icon.props,
+        ref
+      })
     }
 
     return (
@@ -45,7 +46,7 @@ IconWrapper.propTypes = {
   color: PropTypes.string,
 
   /**
-   * The icon component - whether an Evergreen icon or a custom icon node:
+   * The icon component - whether an MolecularUI icon or a custom icon node:
    *
    * - If `null` or `undefined` or `false`, this component will render nothing.
    * - If given a `JSX.Element`, that element will be rendered, with size/color/title props cloned into it

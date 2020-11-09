@@ -545,11 +545,11 @@ export interface ButtonOwnProps extends TextOwnProps {
    */
   isActive?: boolean
   /**
-   * Sets an icon before the text. Can be any icon from Evergreen or a custom icon library.
+   * Sets an icon before the text. Can be any icon from MolecularUI or a custom icon library.
    */
   iconBefore?: React.ElementType | JSX.Element | null | false
   /**
-   * Sets an icon after the text. Can be any icon from Evergreen or a custom icon library.
+   * Sets an icon after the text. Can be any icon from MolecularUI or a custom icon library.
    */
   iconAfter?: React.ElementType | JSX.Element | null | false
   /**
@@ -1085,7 +1085,7 @@ export declare const Link: BoxComponent<LinkOwnProps, 'a'>
 export interface ListItemOwnProps extends TextOwnProps {
   /**
    * When passed, adds a icon before the list item.
-   * See Evergreen `Icon` for documentation.
+   * See MolecularUI `Icon` for documentation.
    */
   icon?: React.ElementType | JSX.Element | null | false
   /**
@@ -1411,17 +1411,17 @@ export interface SegmentedControlOwnProps {
    * The options (elements) displayed by the segmented control
    */
   options: Array<{ label: string, value: NonNullable<SegmentedControlOwnProps['value']> }>
-  
+
   /**
    * The value of the segmented control
    */
   value?: number | string | boolean
-  
+
   /**
    * The initial value of an uncontrolled segmented control
    */
   defaultValue?: number | string | boolean
-  
+
   /**
    * Function called when value changes.
    */
@@ -2053,7 +2053,7 @@ export interface TextDropdownButtonOwnProps extends TextOwnProps {
    */
   disabled?: boolean
   /**
-   * An Evergreen icon or custom icon node. By default it uses CaretDownIcon
+   * An MolecularUI icon or custom icon node. By default it uses CaretDownIcon
    */
   icon?: React.ElementType | JSX.Element | null | false
   /**

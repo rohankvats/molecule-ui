@@ -1,7 +1,7 @@
 /**
  * Theme
  * ---
- * The theme object is used to style Evergreen.
+ * The theme object is used to style MolecularUI.
  * It is passed into the  `<ThemeProvider theme={theme} />`.
  * ----
  * You can use this as a template for your own themes.
@@ -10,7 +10,7 @@
 /**
  * Foundational Styles.
  * ---
- * The following properties are NOT REQUIRED by Evergreen.
+ * The following properties are NOT REQUIRED by MolecularUI.
  * It's exposed for convenience and documentation.
  */
 import {
@@ -24,7 +24,7 @@ import {
 /**
  * Typography.
  * ---
- * The following properties are NOT REQUIRED by Evergreen.
+ * The following properties are NOT REQUIRED by MolecularUI.
  * It's exposed for convenience and documentation.
  */
 import { headings, text, fontFamilies, paragraph } from './typography'
@@ -32,7 +32,7 @@ import { headings, text, fontFamilies, paragraph } from './typography'
 /**
  * Component Specific.
  * ---
- * These ARE REQUIRED for Evergreen to work.
+ * These ARE REQUIRED for MolecularUI to work.
  */
 import {
   avatarColors,
@@ -66,7 +66,7 @@ import {
 /**
  * Theme Helpers.
  * ---
- * These ARE REQUIRED for Evergreen to work.
+ * These ARE REQUIRED for MolecularUI to work.
  */
 import {
   getBorderRadiusForControlHeight,

@@ -1,14 +1,16 @@
 ---
+
 name: Bug report
-about: Report a bug to help us improve Evergreen
+about: Report a bug to help us improve MolecularUI
 title: ''
 labels: 'Type: Bug'
 assignees: ''
 ---<!---
 
-Hello! And thanks for contributing to Evergreen 🎉
+Hello! And thanks for contributing to MolecularUI 🎉
 
 Before opening your issue, make sure you've:
+
 - [ ] read the [Code of Conduct](https://github.com/segmentio/evergreen/blob/master/.github/CODE_OF_CONDUCT.md).
 - [ ] searched for similar issues or pull requests to avoid opening duplicate issues
 - [ ] can clearly outline reproduction steps whenever possible
@@ -32,7 +34,7 @@ _Links to a codesandbox reproduction are extremely useful here._ You can fork th
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Evergreen Version**
+**MolecularUI Version**
 e.g. v4.24.1
 
 **Screenshots**

@@ -1,4 +1,4 @@
 import React from 'react'
-import { Button } from 'cereal-ui'
+import { Button } from 'molecular-ui'
 
 export default () => <Button>🌲</Button>

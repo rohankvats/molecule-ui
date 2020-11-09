@@ -5,24 +5,24 @@ import PropsTable from 'components/PropsTable'
 The `Alert` and `InlineAlert` components are used to give feedback
 to the user about an action or state.
 
-Evergreen exports two components to create text alerts:
+MolecularUI exports two components to create text alerts:
 
-* **Alert**: alert component with icon, title and optional description.
-* **InlineAlert**: alert component with icon and title.
+- **Alert**: alert component with icon, title and optional description.
+- **InlineAlert**: alert component with icon and title.
 
 ### Intent API
 
 Both the `Alert` and the `InlineAlert` components implement the `intent` prop.
-The `intent` is a interface used across Evergreen and has the following options:
+The `intent` is a interface used across MolecularUI and has the following options:
 
-* **info**: `intent="none"`
-* **success**:  `intent="success"`
-* **warning**: `intent="warning"`
-* **danger**: `intent="danger"`
+- **info**: `intent="none"`
+- **success**: `intent="success"`
+- **warning**: `intent="warning"`
+- **danger**: `intent="danger"`
 
 # Alert
 
-The `Alert` component can have a `title` and `children`. 
+The `Alert` component can have a `title` and `children`.
 There are props to configure the icon and the border on the left.
 
 ```jsx
@@ -32,7 +32,7 @@ There are props to configure the icon and the border on the left.
     title="There are over 200 integrations available"
     marginBottom={32}
   />
- <Alert
+  <Alert
     intent="success"
     title="Your source is now sending data"
     marginBottom={32}
@@ -42,10 +42,7 @@ There are props to configure the icon and the border on the left.
     title="Changes will affect all warehouses"
     marginBottom={32}
   />
-  <Alert
-    intent="danger"
-    title="We weren’t able to save your changes"
-  />
+  <Alert intent="danger" title="We weren’t able to save your changes" />
 </Pane>
 ```
 
@@ -58,31 +55,28 @@ There are props to configure the icon and the border on the left.
     title="There are over 200 integrations available"
     marginBottom={32}
   >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
   </Alert>
- <Alert
+  <Alert
     intent="success"
     title="Your source is now sending data"
     marginBottom={32}
   >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
   </Alert>
   <Alert
     intent="warning"
     title="Changes will affect all warehouses"
     marginBottom={32}
   >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
   </Alert>
-  <Alert
-    intent="danger"
-    title="We weren’t able to save your changes"
-  >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  <Alert intent="danger" title="We weren’t able to save your changes">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
   </Alert>
 </Pane>
 ```
@@ -99,7 +93,7 @@ The card appearance is useful if the alert is presented outside of a card or pan
     title="There are over 200 integrations available"
     marginBottom={32}
   />
- <Alert
+  <Alert
     appearance="card"
     intent="success"
     title="Your source is now sending data"
@@ -121,14 +115,14 @@ The card appearance is useful if the alert is presented outside of a card or pan
 
 # InlineAlert
 
-The `InlineAlert` is useful when not showing a title and space is limited. 
+The `InlineAlert` is useful when not showing a title and space is limited.
 
 ```jsx
 <Pane>
-<InlineAlert intent="none" marginBottom={16}>
+  <InlineAlert intent="none" marginBottom={16}>
     There are over 200 integrations available
   </InlineAlert>
- <InlineAlert intent="success" marginBottom={16}>
+  <InlineAlert intent="success" marginBottom={16}>
     Your source is now sending data
   </InlineAlert>
   <InlineAlert intent="warning" marginBottom={16}>
@@ -139,6 +133,5 @@ The `InlineAlert` is useful when not showing a title and space is limited.
   </InlineAlert>
 </Pane>
 ```
-
 
 <PropsTable of="Alert" />

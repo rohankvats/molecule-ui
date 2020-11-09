@@ -54,7 +54,7 @@ IconButton.propTypes = {
   ...layout.propTypes,
 
   /**
-   * The Evergreen icon or custom icon to render
+   * The MolecularUI icon or custom icon to render
    */
   icon: PropTypes.oneOfType([PropTypes.elementType, PropTypes.element]),
 

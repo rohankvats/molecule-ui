@@ -2,7 +2,7 @@ import PropsTable from 'components/PropsTable'
 
 ## Introduction
 
-Evergreen exports multiple component to help create menus.
+MolecularUI exports multiple component to help create menus.
 All components are accessible through the `Menu` component.
 
 - **Menu**: menu wrapper, helps with focus management.
@@ -169,7 +169,7 @@ The `Menu.OptionsGroup` is useful inside of table headers to help with sorting a
 <Menu>
   <Component
     initialState={{
-      selected: 'asc'
+      selected: 'asc',
     }}
   >
     {({ state, setState }) => {
@@ -178,10 +178,10 @@ The `Menu.OptionsGroup` is useful inside of table headers to help with sorting a
           title="Order"
           options={[
             { label: 'Ascending', value: 'asc' },
-            { label: 'Descending', value: 'desc' }
+            { label: 'Descending', value: 'desc' },
           ]}
           selected={state.selected}
-          onChange={selected => setState({ selected })}
+          onChange={(selected) => setState({ selected })}
         />
       )
     }}
@@ -191,7 +191,7 @@ The `Menu.OptionsGroup` is useful inside of table headers to help with sorting a
 
   <Component
     initialState={{
-      selected: 'email'
+      selected: 'email',
     }}
   >
     {({ state, setState }) => {
@@ -203,10 +203,10 @@ The `Menu.OptionsGroup` is useful inside of table headers to help with sorting a
             { label: 'Phone', value: 'phone' },
             { label: 'State', value: 'state' },
             { label: 'Country', value: 'country' },
-            { label: 'Type', value: 'type' }
+            { label: 'Type', value: 'type' },
           ]}
           selected={state.selected}
-          onChange={selected => setState({ selected })}
+          onChange={(selected) => setState({ selected })}
         />
       )
     }}
@@ -229,7 +229,7 @@ The focus styles are currently not working in the docs, sorry for the inconvenie
       <ul>
         <li>
           <a href="#..." role="menuitem">
-            Hey Evergreen,
+            Hey MolecularUI,
           </a>
         </li>
         <li>

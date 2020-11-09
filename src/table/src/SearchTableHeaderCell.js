@@ -100,7 +100,7 @@ SearchTableHeaderCell.propTypes = {
   placeholder: PropTypes.string,
 
   /**
-   * The Evergreen or custom icon before the label.
+   * The MolecularUI or custom icon before the label.
    */
   icon: PropTypes.oneOfType([PropTypes.elementType, PropTypes.element])
 }

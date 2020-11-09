@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 class Feature extends React.PureComponent {
   static propTypes = {
     title: PropTypes.string.isRequired,
-    children: PropTypes.string.isRequired
+    children: PropTypes.string.isRequired,
   }
 
   render() {
@@ -23,15 +23,15 @@ export default class Features extends React.PureComponent {
       <section className="Features bg-green color-white clearfix">
         <div className="Container Features-grid">
           <Feature title="Works out of the box">
-            Evergreen contains a set of polished React components that work out
-            of the box.
+            MolecularUI contains a set of polished React components that work
+            out of the box.
           </Feature>
           <Feature title="Flexible & composable">
-            Evergreen components are built on top of a React UI Primitive for
+            MolecularUI components are built on top of a React UI Primitive for
             endless composability.
           </Feature>
           <Feature title="Enterprise-grade">
-            Evergreen features a UI design language for enterprise-grade web
+            MolecularUI features a UI design language for enterprise-grade web
             applications.
           </Feature>
         </div>

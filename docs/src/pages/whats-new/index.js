@@ -7,7 +7,7 @@ import {
   Card,
   Text,
   Paragraph,
-  CalendarIcon
+  CalendarIcon,
 } from '../../../../src'
 import TopBar from '../../components/TopBar'
 import Layout from '../../components/Layout'
@@ -19,13 +19,13 @@ const majorReleases = [
     version: '5.0.0',
     releaseDate: 'August 2020',
     migrationDocs: '/get-started/v5-migration-guide',
-    description: `Evergreen v5 is a general health check for the framework. We took a look at what makes Evergreen tick
+    description: `MolecularUI v5 is a general health check for the framework. We took a look at what makes MolecularUI tick
     and compared it to new standards. We made several updates to try and push the DevX of using the framework to be
-    a lot more natural and robust. We focused on improving bundle size, performance, tree-shaking support (especially for icons), and better TypeScript definitions.`
-  }
+    a lot more natural and robust. We focused on improving bundle size, performance, tree-shaking support (especially for icons), and better TypeScript definitions.`,
+  },
 ]
 
-const MediaIcon = props => {
+const MediaIcon = (props) => {
   return (
     <svg width="64px" height="64px" viewBox="0 0 64 64" {...props}>
       <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
@@ -51,7 +51,7 @@ const WhatsNew = () => {
   return (
     <Layout>
       <Helmet>
-        <title>What&apos;s New &middot; Evergreen</title>
+        <title>What&apos;s New &middot; MolecularUI</title>
       </Helmet>
       <Pane display="flex" flexDirection="column" minHeight="100vh">
         <TopBar />
@@ -68,7 +68,7 @@ const WhatsNew = () => {
             <Heading size={600} marginY={20}>
               Major Releases
             </Heading>
-            {majorReleases.map(release => (
+            {majorReleases.map((release) => (
               <Card
                 is={Link}
                 to={release.migrationDocs}
@@ -82,7 +82,7 @@ const WhatsNew = () => {
                 margin={24}
               >
                 <Heading size={600} fontWeight={600}>
-                  Evergreen v{release.version}
+                  MolecularUI v{release.version}
                 </Heading>
                 <Pane display="flex" alignItems="center" marginTop={8}>
                   <CalendarIcon size={12} marginRight={8} color="muted" />

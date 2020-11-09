@@ -1,38 +1,30 @@
-<div align="center">
-  <a href="https://evergreen.segment.com/">
-    <img src="https://raw.githubusercontent.com/segmentio/evergreen/master/evergreen-github-hero.png" alt="Evergreen, A Design System for the Web. Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment.">
-	<br>
-  <br>
-  <a href="https://circleci.com/gh/segmentio/evergreen/tree/master">
-    <img src="https://circleci.com/gh/segmentio/evergreen.svg?style=svg" alt="Build Status">
-  </a>
-	<br>
-  <br>
+MolecularUI is a React UI Framework for building ambitious products on the web. Brought to you by upGrad.
+
 </div>
 
-- **Works out of the box.** Evergreen contains a set of polished React components that work out of the box.
+- **Works out of the box.** MolecularUI contains a set of polished React components that work out of the box.
 
-- **Flexible & composable.** Evergreen components are built on top of a React UI Primitive for endless composability.
+- **Flexible & composable.** MolecularUI components are built on top of a React UI Primitive for endless composability.
 
-- **Enterprise-grade.** Evergreen features a UI design language for enterprise-grade web applications.
+- **Enterprise-grade.** MolecularUI features a UI design language for enterprise-grade web applications.
 
 ## Documentation & Community
 
-- [Documentation](https://evergreen.segment.com/)
-- [GitHub Discussions](https://github.com/segmentio/evergreen/discussions)
+- [Documentation](https://www.upgrad.design/)
+- [GitHub Discussions](https://github.com/rohankvats/molecular-ui/discussions)
 
-## Evergreen v4 to v5 Migration guide
+## MolecularUI v4 to v5 Migration guide
 
-Evergreen v4 to v5 [migration guide](https://evergreen.segment.com/get-started/v5-migration-guide)
+MolecularUI v4 to v5 [migration guide](https://www.upgrad.design/get-started/v5-migration-guide)
 
 ## Install and use components
 
-🌲 Evergreen is made up of multiple components and tools which you can import one by one. All you need to do is install the `cereal-ui` package:
+🌲 MolecularUI is made up of multiple components and tools which you can import one by one. All you need to do is install the `molecular-ui` package:
 
 ```sh
-$ yarn add cereal-ui
+$ yarn add molecular-ui
 # or
-$ npm install --save cereal-ui
+$ npm install --save molecular-ui
 ```
 
 A working version, assuming you are using something like [Create React App](https://github.com/facebookincubator/create-react-app), might look like this:
@@ -40,45 +32,45 @@ A working version, assuming you are using something like [Create React App](http
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Button } from 'cereal-ui'
+import { Button } from 'molecular-ui'
 
 ReactDOM.render(
-  <Button>I am using 🌲 Evergreen!</Button>,
+  <Button>I am using 🌲 MolecularUI!</Button>,
   document.getElementById('root')
 )
 ```
 
-## Core values of 🌲 Evergreen
+## Core values of 🌲 MolecularUI
 
-- **Evergreen is built on the belief that you can never predict all future requirements,
-  only prepare for it.** Instead of creating fixed configurations that work today, Evergreen promotes building systems that anticipate new and changing design requirements.
+- **MolecularUI is built on the belief that you can never predict all future requirements,
+  only prepare for it.** Instead of creating fixed configurations that work today, MolecularUI promotes building systems that anticipate new and changing design requirements.
 
-- **Evergreen is built on the belief that things should work out of the box with smart defaults, but also offer full control when needed.** For example, Evergreen uses CSS-in-JS and builds on top of the Box component in [ui-box](https://github.com/segmentio/ui-box).
+- **MolecularUI is built on the belief that things should work out of the box with smart defaults, but also offer full control when needed.** For example, MolecularUI uses CSS-in-JS and builds on top of the Box component in [ui-box](https://github.com/segmentio/ui-box).
 
-- **Evergreen is built on the belief that using Evergreen and contributing to Evergreen should be a pleasant experience.** We prioritize documentation and all the tools for a solid developer experience. We advocate respect and inclusivity in our writings and interactions.
+- **MolecularUI is built on the belief that using MolecularUI and contributing to MolecularUI should be a pleasant experience.** We prioritize documentation and all the tools for a solid developer experience. We advocate respect and inclusivity in our writings and interactions.
 
 ## FAQ
 
 ### Theming support?
 
-Evergreen v5 supports theming partially. It is still complex to theme Evergreen. We have done exploratory work to make theming more powerful and accessible, and hope to release a new theming api in Evergreen v6.
+MolecularUI v5 supports theming partially. It is still complex to theme MolecularUI. We have done exploratory work to make theming more powerful and accessible, and hope to release a new theming api in MolecularUI v6.
 
-See these [docs](https://evergreen.segment.com/get-started/theming/) for more information regarding theming in Evergreen.
+See these [docs](https://www.upgrad.design/get-started/theming/) for more information regarding theming in MolecularUI.
 
 ### How does Server Side Rendering (SSR) work?
 
-Evergreen offers easy Server Side Rendering (SSR) and automatic hydration.
+MolecularUI offers easy Server Side Rendering (SSR) and automatic hydration.
 
-Evergreen bundles 2 CSS-in-JS solutions, from glamor and ui-box. To make it super easy to do server side rendering and hydration, Evergreen exposes a `extractStyles()` function that will do SSR for both at once.
+MolecularUI bundles 2 CSS-in-JS solutions, from glamor and ui-box. To make it super easy to do server side rendering and hydration, MolecularUI exposes a `extractStyles()` function that will do SSR for both at once.
 
 - How to use it with Next.js in the [ssr-next example app](examples/ssr-next).
-- [How to use it with GatsbyJS](https://github.com/segmentio/evergreen/issues/154)
+- [How to use it with GatsbyJS](https://github.com/rohankvats/molecular-ui/issues/154)
 
-## Contributing to Evergreen
+## Contributing to MolecularUI
 
 ### 🍴 Step 1. Fork this repository
 
-In order to contribute to Evergreen, you need to fork this repo, and develop on your own local clone.
+In order to contribute to MolecularUI, you need to fork this repo, and develop on your own local clone.
 
 If you don't know how to do so, follow this [guide](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)!
 
@@ -102,7 +94,7 @@ Now go to `http://localhost:6006` in your browser.
 
 Now you can start developing! All of the components are under the `src` directory and associated code changes will automatically be reflected in StoryBook.
 
-If necessary, we encourage you to update the documentation so Evergreen users will be aware of your new features/changes.
+If necessary, we encourage you to update the documentation so MolecularUI users will be aware of your new features/changes.
 
 In order to run the documentation page locally, run these commands in your terminal:
 
@@ -121,7 +113,7 @@ Documentation code is under the `docs` directory. A big portion of these docs ar
 
 Once you're done with making your changes, push everything to your local repository's branch.
 
-From here, you can open up a pull request from your forked repository's branch into `segmentio/evergreen`'s `master` branch.
+From here, you can open up a pull request from your forked repository's branch into `rohankvats/molecular-ui`'s `master` branch.
 
 In your PR description, explain the changes you made, why you made them, how to test them, and anything that might be a point of interest.
 
@@ -129,7 +121,7 @@ Once you create your PR, it will be reviewed and hopefully merged quickly!
 
 ### 🥂 Step 5. Pat yourself on the back
 
-Congrats, you're officially an Evergreen contributor!
+Congrats, you're officially an MolecularUI contributor!
 
 ## 🤓 Scripts explained
 
@@ -146,7 +138,7 @@ Below you can read a description of each script.
 
 - `yarn clean`: removes all untracked files (`git clean -Xdf`).
 
-- `yarn release`: Releases new version of Evergreen (requires MFA via npm as a collaborator)
+- `yarn release`: Releases new version of MolecularUI (requires MFA via npm as a collaborator)
 
 - `yarn create-package`: This command scaffolds a package with no specific boilerplate. It's useful for creating utilities.
 
@@ -215,7 +207,7 @@ Please respect our [Code of Conduct](.github/CODE_OF_CONDUCT.md), in short:
 
 ## License
 
-Evergreen is released under the MIT license.
+MolecularUI is released under the MIT license.
 The BlueprintJS icons are licensed under a [custom Apache 2.0 license](https://github.com/palantir/blueprint/blob/develop/LICENSE).
 
 Copyright © 2017 Segment.io, Inc.

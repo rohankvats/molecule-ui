@@ -1,5 +1,5 @@
 import React from 'react'
-import { Pane, Heading, ThemeConsumer } from 'cereal-ui'
+import { Pane, Heading, ThemeConsumer } from 'molecular-ui'
 import ColorGroup from './ColorGroup'
 
 function capitalize(string) {

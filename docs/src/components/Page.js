@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { Location, navigate } from '@reach/router'
-import { Button, IconButton, Tooltip, ArrowLeftIcon } from 'cereal-ui'
+import { Button, IconButton, Tooltip, ArrowLeftIcon } from 'molecular-ui'
 import IA from '../IA'
 import DocsMDXProvider from './DocsMDXProvider'
 import TopBar from './TopBar'
@@ -68,11 +68,14 @@ class Page extends React.Component {
     return (
       <React.Fragment>
         <Helmet>
-          <title>{metaInfo.name} · Evergreen</title>
-          <meta property="og:title" content={`${metaInfo.name} · Evergreen`} />
+          <title>{metaInfo.name} · MolecularUI</title>
+          <meta
+            property="og:title"
+            content={`${metaInfo.name} · MolecularUI`}
+          />
           <meta
             property="twitter:title"
-            content={`${metaInfo.name} · Evergreen`}
+            content={`${metaInfo.name} · MolecularUI`}
           />
         </Helmet>
         <div>

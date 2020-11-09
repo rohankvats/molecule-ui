@@ -8,10 +8,10 @@ import PropTypeHeading from './prop-types-table/PropTypeHeading'
 export default class PropsTable extends PureComponent {
   static propTypes = {
     of: PropTypes.string.isRequired,
-    rename: PropTypes.string
+    rename: PropTypes.string,
   }
 
-  isArrayOf = prop => {
+  isArrayOf = (prop) => {
     if (
       prop.type &&
       prop.type.name === 'arrayOf' &&
@@ -23,10 +23,10 @@ export default class PropsTable extends PureComponent {
   }
 
   /**
-   * The StaticQuery loads all of the docs within Evergreen.
+   * The StaticQuery loads all of the docs within MolecularUI.
    * We find the docs for just the component we are looking for.
    */
-  getDocsForComponent = data => {
+  getDocsForComponent = (data) => {
     const result = data.allComponentMetadata.edges.find(({ node }) => {
       return node.displayName === this.props.of
     })
@@ -39,7 +39,7 @@ export default class PropsTable extends PureComponent {
     return (
       /**
        * The plugin gatsby-transformer-react-docgen run react-docgen
-       * on all of Evergreen and this query returns all of the data for
+       * on all of MolecularUI and this query returns all of the data for
        * creating prop types.
        */
       <StaticQuery
@@ -73,7 +73,7 @@ export default class PropsTable extends PureComponent {
             }
           }
         `}
-        render={data => {
+        render={(data) => {
           const componentDocs = this.getDocsForComponent(data)
           if (!componentDocs)
             return (
@@ -99,7 +99,7 @@ export default class PropsTable extends PureComponent {
                     <div className="PropTypesTable-composes">
                       <p>
                         <strong>This component composes </strong>
-                        {componentDocs.composes.map(filePath => (
+                        {componentDocs.composes.map((filePath) => (
                           <code key={filePath}>
                             {filePath.slice(filePath.indexOf('/') + 1)}
                           </code>
@@ -109,7 +109,7 @@ export default class PropsTable extends PureComponent {
                   )}
               </div>
 
-              {componentDocs.props.map(prop => {
+              {componentDocs.props.map((prop) => {
                 const isArrayOf = this.isArrayOf(prop)
                 // Figure out what makes sense here.
                 return (

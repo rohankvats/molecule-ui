@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Pane, Heading } from 'cereal-ui'
+import { Pane, Heading } from 'molecular-ui'
 import Swatch from './Swatch'
 
 const ColorGroup = props => {

@@ -19,10 +19,10 @@ export default class DesignersHero extends React.PureComponent {
       <section className="Hero">
         <div className="Hero-inner">
           <div className="Hero-left">
-            <h1>Evergreen for Designers</h1>
+            <h1>MolecularUI for Designers</h1>
             <p>
               Design products and side-projects with our official design
-              resource for the Evergreen community.
+              resource for the MolecularUI community.
             </p>
             <Pane display="flex" alignItems="flex-start" flexDirection="column">
               <Button
@@ -45,7 +45,7 @@ export default class DesignersHero extends React.PureComponent {
               <Button
                 is="a"
                 onClick={this.trackDownload}
-                href={withPrefix('/Evergreen v4 Community.sketch')}
+                href={withPrefix('/MolecularUI v4 Community.sketch')}
                 flexShrink={0}
                 iconBefore={
                   <img
@@ -53,7 +53,7 @@ export default class DesignersHero extends React.PureComponent {
                     height="16"
                     style={{
                       marginRight: 10,
-                      marginLeft: -2
+                      marginLeft: -2,
                     }}
                   />
                 }
@@ -92,7 +92,7 @@ export default class DesignersHero extends React.PureComponent {
           <div className="Hero-right" style={{ marginBottom: -80 }}>
             <img
               src={spotIllustration}
-              alt="Evergreen spot illustration"
+              alt="MolecularUI spot illustration"
               style={{ width: 540 }}
             />
           </div>

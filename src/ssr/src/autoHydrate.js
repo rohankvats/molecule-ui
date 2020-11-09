@@ -26,7 +26,7 @@ export default function autoHydrate() {
         hydrate(hydrationObject)
       } catch (error) {
         console.error(
-          'Evergreen automatic hydration object is invalid JSON',
+          'MolecularUI automatic hydration object is invalid JSON',
           error
         )
       }

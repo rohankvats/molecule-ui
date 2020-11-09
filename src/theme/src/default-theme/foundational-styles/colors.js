@@ -3,7 +3,7 @@ import scales from './scales'
 
 /**
  * This object are functional colors being used the default theme.
- * A required property is required by the default theme NOT by Evergreen itself.
+ * A required property is required by the default theme NOT by MolecularUI itself.
  */
 export default {
   /**

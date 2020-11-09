@@ -14,7 +14,7 @@ export default () => {
   return (
     <Layout>
       <Helmet>
-        <title>Introduction · Evergreen</title>
+        <title>Introduction · MolecularUI</title>
       </Helmet>
       <div className="MainLayout">
         <TopBar />
@@ -28,32 +28,32 @@ export default () => {
                 <div className="Content">
                   <h1>Introduction</h1>
                   <p className="p">
-                    Evergreen is a pragmatic UI kit for building evolving
+                    MolecularUI is a pragmatic UI kit for building evolving
                     products on the web.
                     <br /> It is built and maintained open-source by{' '}
                     <NativeLink href="https://segment.com/">Segment</NativeLink>
                     .
                   </p>
-                  <h2>Core beliefs of Evergreen</h2>
+                  <h2>Core beliefs of MolecularUI</h2>
                   <p>
                     <strong>
-                      Evergreen is built on the belief that you can never
+                      MolecularUI is built on the belief that you can never
                       predict all future requirements, only prepare for it.
                     </strong>
                     {` `}
                     Instead of creating fixed configurations that work today,
-                    Evergreen promotes building systems that anticipate new and
-                    changing design requirements.
+                    MolecularUI promotes building systems that anticipate new
+                    and changing design requirements.
                   </p>
                   <p>
                     <strong>
-                      Evergreen is built on the belief that things should work
+                      MolecularUI is built on the belief that things should work
                       out of the box with smart defaults and offer full control
                       when needed.
                     </strong>
                     {` `}
-                    For example, Evergreen implements most components on top of
-                    a{' '}
+                    For example, MolecularUI implements most components on top
+                    of a{' '}
                     <NativeLink href="https://github.com/segmentio/ui-box">
                       Box primitive
                     </NativeLink>{' '}
@@ -61,8 +61,9 @@ export default () => {
                   </p>
                   <p>
                     <strong>
-                      Evergreen is built on the belief that using Evergreen and
-                      contributing to Evergreen should be a pleasant experience.
+                      MolecularUI is built on the belief that using MolecularUI
+                      and contributing to MolecularUI should be a pleasant
+                      experience.
                     </strong>{' '}
                     We prioritize documentation and all the tools for a solid
                     developer experience. We advocate respect and inclusivity in
@@ -70,16 +71,16 @@ export default () => {
                   </p>
                   <h2>Install and use components</h2>
                   <p>
-                    Evergreen is made up of multiple components and tools which
-                    you can import one by one. All you need to do is install the{' '}
-                    <code>cereal-ui</code> package:
+                    MolecularUI is made up of multiple components and tools
+                    which you can import one by one. All you need to do is
+                    install the <code>molecular-ui</code> package:
                   </p>
                 </div>
                 <SyntaxHighlighter>
                   {`
-$ yarn add cereal-ui
+$ yarn add molecular-ui
 # or
-$ npm install --save cereal-ui
+$ npm install --save molecular-ui
                 `.trim()}
                 </SyntaxHighlighter>
                 <div className="Content">
@@ -96,10 +97,10 @@ $ npm install --save cereal-ui
                   {`
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Button } from 'cereal-ui'
+import { Button } from 'molecular-ui'
 
 ReactDOM.render(
-  <Button>I am using 🌲 Evergreen!</Button>,
+  <Button>I am using 🌲 MolecularUI!</Button>,
   document.getElementById('root')
 )`}
                 </SyntaxHighlighter>

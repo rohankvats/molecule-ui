@@ -161,7 +161,7 @@ storiesOf('menu', module)
             <ul>
               <li>
                 <a href="..." role="menuitem">
-                  Hey Evergreen,
+                  Hey MolecularUI,
                 </a>
               </li>
               <li>

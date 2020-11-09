@@ -21,10 +21,10 @@ const WhatsNewHero = () => {
             Updates
           </Badge>
           <Heading is="h1" size={900}>
-            What&apos;s New in Evergreen
+            What&apos;s New in MolecularUI
           </Heading>
           <Paragraph>
-            Evergreen is a living system, which means we are constently making
+            MolecularUI is a living system, which means we are constently making
             updates to it. You can learn more about those changes, and up coming
             ones here.
           </Paragraph>

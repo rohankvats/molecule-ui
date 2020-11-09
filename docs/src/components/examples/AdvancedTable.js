@@ -13,7 +13,7 @@ import {
   CaretDownIcon,
   MoreIcon,
   TextDropdownButton
-} from 'cereal-ui'
+} from 'molecular-ui'
 import profiles from './profiles.json'
 
 function capitalize(string) {

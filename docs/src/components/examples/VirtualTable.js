@@ -7,7 +7,7 @@ import {
   TextInputField,
   SelectField,
   minorScale
-} from 'cereal-ui'
+} from 'molecular-ui'
 
 const range = N => Array.from({ length: N }, (v, k) => k + 1)
 

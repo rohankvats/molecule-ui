@@ -15,22 +15,22 @@ const mediaItems = [
     image: hireImage,
     published: 'Oct, 2018',
     link:
-      'https://medium.com/segment-design/how-we-hire-designers-at-segment-ec1f5a94b3fb'
+      'https://medium.com/segment-design/how-we-hire-designers-at-segment-ec1f5a94b3fb',
   },
   {
     title: '10 Tips to Design Sketch Files at Scale',
     image: tipsImage,
     published: 'August, 2018',
     link:
-      'https://medium.com/segment-design/10-tips-to-design-sketch-files-at-scale-537614876c45'
+      'https://medium.com/segment-design/10-tips-to-design-sketch-files-at-scale-537614876c45',
   },
   {
     title: '3 Ways to Onboard onto a Design System Quickly',
     image: useSystemImage,
     published: 'July, 2018',
     link:
-      'https://medium.com/segment-design/3-ways-to-onboard-onto-a-design-system-quickly-b829a9c47c3e'
-  }
+      'https://medium.com/segment-design/3-ways-to-onboard-onto-a-design-system-quickly-b829a9c47c3e',
+  },
 ]
 
 export default class Root extends React.Component {
@@ -42,13 +42,12 @@ export default class Root extends React.Component {
     return (
       <Layout>
         <Helmet>
-          <title>Designers &middot; Evergreen</title>
+          <title>Designers &middot; MolecularUI</title>
         </Helmet>
         <div>
           <TopBar />
           <main>
             <DesignersHero />
-            <Media title="From Our Design Blog" items={mediaItems} />
           </main>
         </div>
         <PageFooter />

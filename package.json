@@ -1,5 +1,5 @@
 {
-  "name": "cereal-ui",
+  "name": "molecular-ui",
   "version": "0.0.1",
   "description": "🌲 React UI Kit by rohan 🌲",
   "contributors": [
@@ -11,19 +11,19 @@
     "Chris Chuck (https://github.com/Chrischuck)"
   ],
   "keywords": [
-    "cereal-ui",
+    "molecular-ui",
     "ui",
     "react"
   ],
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": { "registry": "https://registry.npmjs.org/" },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rohankvats/cereal-ui.git"
+    "url": "https://github.com/rohankvats/molecule-ui.git"
   },
   "license": "MIT",
   "main": "commonjs/index.js",
   "module": "esm/index.js",
-  "unpkg": "umd/cereal-ui.min.js",
+  "unpkg": "umd/molecular-ui.min.js",
   "types": "index.d.ts",
   "files": [
     "commonjs",
@@ -50,7 +50,7 @@
     "clean": "git clean -Xdf",
     "release": "np",
     "deploy-docs": "cd docs && yarn install && yarn deploy",
-    "postpublish": "branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD); if [[ $branch == \"master\" ]]; then yarn deploy-docs; else echo \"not on main branch, skipping docs deploy\"; fi;",
+    "postpublish": "branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD); if [[ $branch == \"main\" ]]; then yarn deploy-docs; else echo \"not on main branch, skipping docs deploy\"; fi;",
     "storybook": "start-storybook -p 6006"
   },
   "engines": {
@@ -228,7 +228,7 @@
       "running": false
     },
     {
-      "path": "umd/cereal-ui.min.js",
+      "path": "umd/molecular-ui.min.js",
       "limit": "220 KB",
       "running": false
     },

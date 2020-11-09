@@ -9,7 +9,7 @@ storiesOf('icons', module).add('Icons', () => (
     <Box paddingLeft={40}>
       <Heading size={800}>icons</Heading>
       <Paragraph marginTop="default">
-        Evergreen uses the amazing{' '}
+        MolecularUI uses the amazing{' '}
         <Link href="https://blueprintjs.com/docs/#icons">
           @blueprintjs/icons
         </Link>{' '}

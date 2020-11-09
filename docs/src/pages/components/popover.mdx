@@ -9,25 +9,22 @@ The preferred and default side is the bottom.
 
 ### Implementation details
 
-The `Popover` uses the `Positioner` from Evergreen to handle the positioning logic.
+The `Popover` uses the `Positioner` from MolecularUI to handle the positioning logic.
 Internally the `Popover` will make sure the `Popover` is positioned within the viewport.
 This means that sometimes the `Popover` flips — or the `Popover` might move slightly to the left or right.
 
 ### When creating a Popover, you must specify both:
 
-* Its `content`, by setting the content prop, and
-* Its `target`, as a single child element or a function
+- Its `content`, by setting the content prop, and
+- Its `target`, as a single child element or a function
 
 When you pass a function to the `content` prop you will be able to close the popover inside of the content.
 
 ### Popovers Close On
 
-* Outside click
-* Escape key
-* The close function being called (advanced)
-
-
-
+- Outside click
+- Escape key
+- The close function being called (advanced)
 
 ## Basic usage
 
@@ -105,14 +102,14 @@ When closing, it will return back focus on the target if nothing else has focus.
 
 The Popover can be positioned on the following positions using the `position` prop:
 
-* `Position.TOP`
-* `Position.TOP_LEFT`
-* `Position.TOP_RIGHT`
-* `Position.BOTTOM`
-* `Position.BOTTOM_LEFT`
-* `Position.BOTTOM_RIGHT`
-* `Position.LEFT`
-* `Position.RIGHT`
+- `Position.TOP`
+- `Position.TOP_LEFT`
+- `Position.TOP_RIGHT`
+- `Position.BOTTOM`
+- `Position.BOTTOM_LEFT`
+- `Position.BOTTOM_RIGHT`
+- `Position.LEFT`
+- `Position.RIGHT`
 
 ```jsx collapse
 <Pane>
@@ -128,13 +125,13 @@ The Popover can be positioned on the following positions using the `position` pr
           flexDirection="column"
         >
           <Text>TOP_LEFT</Text>
-        </Pane>    
+        </Pane>
       }
       position={Position.TOP_LEFT}
     >
       <Button>TOP_LEFT</Button>
     </Popover>
-   <Popover
+    <Popover
       content={
         <Pane
           width={240}
@@ -145,7 +142,7 @@ The Popover can be positioned on the following positions using the `position` pr
           flexDirection="column"
         >
           <Text>TOP</Text>
-        </Pane>    
+        </Pane>
       }
       position={Position.TOP}
     >
@@ -162,7 +159,7 @@ The Popover can be positioned on the following positions using the `position` pr
           flexDirection="column"
         >
           <Text>TOP_RIGHT</Text>
-        </Pane>    
+        </Pane>
       }
       position={Position.TOP_RIGHT}
     >
@@ -170,7 +167,7 @@ The Popover can be positioned on the following positions using the `position` pr
     </Popover>
   </Pane>
   <Pane display="flex" justifyContent="space-between" marginTop={40}>
-     <Popover
+    <Popover
       content={
         <Pane
           width={240}
@@ -181,7 +178,7 @@ The Popover can be positioned on the following positions using the `position` pr
           flexDirection="column"
         >
           <Text>LEFT</Text>
-        </Pane>    
+        </Pane>
       }
       position={Position.LEFT}
     >
@@ -198,7 +195,7 @@ The Popover can be positioned on the following positions using the `position` pr
           flexDirection="column"
         >
           <Text>RIGHT</Text>
-        </Pane>    
+        </Pane>
       }
       position={Position.RIGHT}
     >
@@ -217,13 +214,13 @@ The Popover can be positioned on the following positions using the `position` pr
           flexDirection="column"
         >
           <Text>BOTTOM_LEFT</Text>
-        </Pane>    
+        </Pane>
       }
       position={Position.BOTTOM_LEFT}
     >
       <Button>BOTTOM_LEFT</Button>
     </Popover>
-     <Popover
+    <Popover
       content={
         <Pane
           width={240}
@@ -234,7 +231,7 @@ The Popover can be positioned on the following positions using the `position` pr
           flexDirection="column"
         >
           <Text>BOTTOM</Text>
-        </Pane>    
+        </Pane>
       }
       position={Position.BOTTOM}
     >
@@ -251,7 +248,7 @@ The Popover can be positioned on the following positions using the `position` pr
           flexDirection="column"
         >
           <Text>BOTTOM_RIGHT</Text>
-        </Pane>    
+        </Pane>
       }
       position={Position.BOTTOM_RIGHT}
     >
@@ -260,6 +257,7 @@ The Popover can be positioned on the following positions using the `position` pr
   </Pane>
 </Pane>
 ```
+
 ## Disable Close on Body Click
 
 ```jsx

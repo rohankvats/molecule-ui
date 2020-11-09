@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pane, Icon, Menu, Button, SelectMenu } from 'cereal-ui';
+import { Pane, Icon, Menu, Button, SelectMenu } from 'molecular-ui';
 
 function MyComponent(_props) {
   return (

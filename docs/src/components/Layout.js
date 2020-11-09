@@ -5,16 +5,16 @@ import absolutePath from '../absolutePath'
 import '../css/index.css' // eslint-disable-line import/no-unassigned-import
 
 const description =
-  'Evergreen is a React UI Framework for building ambitious products on the web. Brought to you by Segment.'
+  'MolecularUI is a React UI Framework for building ambitious products on the web. Brought to you by Segment.'
 
 const TemplateWrapper = ({ children }) => {
   return (
     <React.Fragment>
       <Helmet>
         {/* Fallback properties */}
-        <title>Evergreen</title>
+        <title>MolecularUI</title>
         <meta name="description" content={description} />
-        <meta property="og:title" content="Evergreen" />
+        <meta property="og:title" content="MolecularUI" />
         <meta property="og:url" content={absolutePath()} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={absolutePath('/og-image.png')} />
@@ -34,7 +34,7 @@ const TemplateWrapper = ({ children }) => {
 }
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
 }
 
 export default TemplateWrapper

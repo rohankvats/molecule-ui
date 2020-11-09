@@ -1,6 +1,6 @@
-# 🎉 Thanks for taking the time to contribute to 🌲 Evergreen! 🎉
+# 🎉 Thanks for taking the time to contribute to 🌲 MolecularUI! 🎉
 
-It is highly appreciated that you take the time to help improve 🌲 Evergreen.
+It is highly appreciated that you take the time to help improve 🌲 MolecularUI.
 
 Please see our [issue template](ISSUE_TEMPLATE.md) for issues specifically.
 
@@ -10,7 +10,7 @@ Preferably we like to introduce new components by following these steps.
 
 ### Submit an issue
 
-To better understand if your component is wanted by 🌲 Evergreen,
+To better understand if your component is wanted by 🌲 MolecularUI,
 submit a component request first as an issue.
 Explain why you want the component.
 Potentially include a design or component API.
@@ -22,7 +22,7 @@ Potentially include a design or component API.
 This can be a wireframe or high fidelity mockup.
 Include this in your issue if possible.
 
-We hope to formalize the 🌲 Evergreen design language more as we go.
+We hope to formalize the 🌲 MolecularUI design language more as we go.
 As a general rule of thumb try to follow these constraints:
 
 - Use `color` and the `typography` components.

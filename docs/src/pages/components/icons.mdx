@@ -3,16 +3,15 @@ import PropsTable from 'components/PropsTable'
 
 ## Introduction
 
-Evergreen uses the amazing [@blueprintjs/icons](https://blueprintjs.com/docs/#icons) package for all of its icons.
+MolecularUI uses the amazing [@blueprintjs/icons](https://blueprintjs.com/docs/#icons) package for all of its icons.
 
 ## Implementation Details
 
-All of Evergreen's icons are exported as individual components, and can be imported directly like so:
+All of MolecularUI's icons are exported as individual components, and can be imported directly like so:
 
- `import { CrossIcon } from 'cereal-ui'`
+`import { CrossIcon } from 'molecular-ui'`
 
- `import { InfoSignIcon, EditIcon } from 'cereal-ui'`
-
+`import { InfoSignIcon, EditIcon } from 'molecular-ui'`
 
 ### Icons are not buttons
 
@@ -56,12 +55,10 @@ There is an exported `Icon` component which acts as a convenient wrapper around 
 <Icon icon={CogIcon} size={12} />
 ```
 
-
 ## All icons
 
 Each icon has two different `svg` variations, a `16px` and `20px` variation.
-Evergreen will choose the most appropriate size based on the `size` passed to the icon.
+MolecularUI will choose the most appropriate size based on the `size` passed to the icon.
 
 <IconSearch />
-
 <PropsTable of="AddIcon" />

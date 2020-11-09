@@ -10,7 +10,7 @@ import PageFooter from './PageFooter'
 const PageLayout = ({ children }) => (
   <Layout>
     <Helmet>
-      <title>Theming · Evergreen</title>
+      <title>Theming · MolecularUI</title>
     </Helmet>
     <div className="MainLayout">
       <TopBar />
@@ -35,7 +35,7 @@ const PageLayout = ({ children }) => (
 )
 
 PageLayout.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
 }
 
 export default PageLayout
